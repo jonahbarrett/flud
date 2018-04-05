@@ -8,22 +8,22 @@
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Caveat|Gloria+Hallelujah" rel="stylesheet">
 </head>
-<body>
-	<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+<body data-spy="scroll" data-target="#mainnav">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="mainnav">
 	  <a class="navbar-brand" href="#">Flud</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	    <div class="navbar-nav">
-	      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-	      <a class="nav-item nav-link" href="#albumart">Music</a>
-	      <a class="nav-item nav-link" href="#">Gallery</a>
+	      <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+	      <a class="nav-item nav-link" href="#albumart">New Album</a>
+	      <a class="nav-item nav-link" href="#music">Music</a>
 	      <a class="nav-item nav-link disabled" href="#">Contact</a>
 	    </div>
 	  </div>
 	</nav>
-	<div class="centerdiv">
+	<div class="centerdiv" id="home">
 	<h1>Flud</h1>
 	</div>
 	<div id="albumart" class="parallax">
@@ -31,7 +31,7 @@
 			<h1>New Album</h1>
 		</div>
 	</div>
-	<div class="centerdiv">
+	<div class="centerdiv" id="music">
 		<iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1578870836/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/transparent=true/" seamless><a href="http://fludband.bandcamp.com/track/a-place-in-time-ivy">A Place in Time/Ivy by Flud</a></iframe>
 	</div>
 
