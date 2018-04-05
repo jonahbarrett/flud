@@ -1,0 +1,47 @@
+body {
+	background-color: #ff5533
+	/*background-color: #4A0C64FF*/
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("FLUD.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	position: relative;
+	color: white;
+	font-size: 10em;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: none; 
+    border-radius: none;
+    border: none;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #D92B74;
+}
+
