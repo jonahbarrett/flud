@@ -10,7 +10,7 @@ body, html {
 .centerdiv {
 	display: flex;
     justify-content: center;
-    height: 80%;
+    height: 100%;
     align-items: center;
 }
 
