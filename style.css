@@ -1,7 +1,7 @@
 body {
 	background-color: #ff5533;
 	position: relative;
-
+	margin-left: 5px;
 }
 
 body, html {
@@ -42,9 +42,13 @@ h1 {
 	font-family: 'Gloria Hallelujah', cursive;
 }
 
+.fixed-top {
+	left: 5px;
+}
+
 /* width */
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 5px;
 }
 
 /* Track */
